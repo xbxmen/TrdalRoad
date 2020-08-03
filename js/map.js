@@ -18,21 +18,14 @@ function showProvince() {
 
         myChart.setOption(option = {
             // backgroundColor: '#044060',
-            title: {
-                text: "北京市地图",
-                subtext: "时间周期：2017.01.01——2019.12.30",
-                left: 'center',
-                textStyle: {
-                    color: '#101010'
-                }
-            },
             visualMap: {
                 min: 0,
                 max: 45000,
                 left: 'left',
                 top: 'bottom',
+                show: false,
                 text: ['高', '低'], // 文本，默认为数值文本
-                calculable: true,
+                // calculable: true,
                 inRange: {
                     color: ['yellow', 'lightskyblue', 'orangered']
                 },
@@ -129,4 +122,5 @@ function showProvince() {
         });
     });
 }
+
 showProvince();
