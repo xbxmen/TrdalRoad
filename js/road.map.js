@@ -1,4 +1,4 @@
-var uploadedDataURL = "data/data-1499156198404-H1AJkAOEZ.json";
+var uploadedDataURL = "data/map-beijing.json";
 
 function randomData() {
     return Math.round(Math.random() * 45000);
