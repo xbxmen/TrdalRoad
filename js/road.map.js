@@ -1,8 +1,8 @@
 var uploadedDataURL = "data/data-1499156198404-H1AJkAOEZ.json";
 
-//function randomData() {
-//    return Math.round(Math.random() * 10000);
-//}
+function randomData() {
+    return Math.round(Math.random() * 45000);
+}
 
 function showProvince() {
     var name = 'bj';
@@ -59,7 +59,7 @@ function showProvince() {
                 animation: false,
                 data: [{
                     name: '东城区',
-                    value: 18163,
+                    value: randomData(),
                     label: {
                         normal: {
                             show: false
@@ -67,7 +67,7 @@ function showProvince() {
                     }
                 }, {
                     name: '西城区',
-                    value: 22036,
+                    value: randomData(),
                     label: {
                         normal: {
                             show: false
@@ -75,46 +75,46 @@ function showProvince() {
                     }
                 }, {
                     name: '海淀区',
-                    value: 39825
+                    value: randomData()
                 }, {
                     name: '朝阳区',
-                    value: 48405
+                    value: randomData()
                 }, {
                     name: '石景山区',
-                    value: 15212,
+                    value: randomData(),
                 }, {
                     name: '大兴区',
-                    value: 26681
+                    value: randomData()
                 }, {
                     name: '门头沟区',
-                    value: 11161,
+                    value: randomData(),
                 }, {
                     name: '昌平区',
-                    value: 20687
+                    value: randomData()
                 }, {
                     name: '通州区',
-                    value: 51488,
+                    value: randomData(),
                 }, {
                     name: '房山区',
-                    value: 23053
+                    value: randomData()
                 }, {
                     name: '丰台区',
-                    value: 26504
+                    value: randomData()
                 }, {
                     name: '顺义区',
-                    value: 17247
+                    value: randomData()
                 }, {
                     name: '怀柔区',
-                    value: 21812
+                    value: randomData()
                 }, {
                     name: '密云区',
-                    value: 18589
+                    value: randomData()
                 }, {
                     name: '延庆区',
-                    value: 22211
+                    value: randomData()
                 }, {
                     name: '平谷区',
-                    value: 16729
+                    value: randomData()
                 }]
                 // animationDurationUpdate: 1000,
                 // animationEasingUpdate: 'quinticInOut'

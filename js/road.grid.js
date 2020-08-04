@@ -1,5 +1,5 @@
 let data = [];
-for (let i = 0; i < 300; i++) {
+for (let i = 0; i < 20; i++) {
     data[i] = [Math.round(Math.random() * 1856), Math.round(Math.random() * 1783)];
 }
 
