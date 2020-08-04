@@ -1,22 +1,22 @@
 #content {
     margin: 0 auto;
-    width: 1000px;
-    height: 800px;
+    width: 1300px;
+    height: 1040px;
 }
 
 #map {
     position: absolute;
     opacity: 50%;
-    top: 2%;
-    width: 1000px;
-    height: 810px;
+    top: 0;
+    width: 1300px;
+    height: 1062px;
     z-index: 100;
 }
 
 #grid {
     position: absolute;
-    margin-left: 101px;
-    width: 798px;
-    height: 800px;
+    margin-left: 131px;
+    width: 1038px;
+    height: 1010px;
     z-index: 1;
 }
