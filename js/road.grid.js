@@ -45,8 +45,11 @@ $.get('data/grid-beijing.json', function (data) {
                 label: {
                     show: true,
                     position: 'right',
-                    color: 'blue',
-                    fontSize: 16
+                    color: '#111',
+                    fontSize: 16,
+                    formatter: function (param) {
+                        return param.data[2];
+                    }
                 }
             },
             data: data
