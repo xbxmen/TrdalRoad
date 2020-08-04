@@ -19,7 +19,7 @@ option = {
     },
     title: {
         text: '北京市地图潮汐道路分析',
-        subtext: '时间周期：2017.01.01——2019.12.30',
+        subtext: '时间周期：2018.01.01——2019.12.30',
         sublink: '',
         left: 'center',
         top: 16
