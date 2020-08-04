@@ -7,15 +7,16 @@
 #map {
     position: absolute;
     opacity: 50%;
-    top: 3%;
+    top: 2%;
     width: 1000px;
-    height: 780px;
+    height: 810px;
     z-index: 100;
 }
 
 #grid {
     position: absolute;
-    width: 1000px;
+    margin-left: 101px;
+    width: 798px;
     height: 800px;
     z-index: 1;
 }
