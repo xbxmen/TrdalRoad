@@ -7,9 +7,9 @@
 #map {
     position: absolute;
     opacity: 50%;
-    top: 0;
+    top: -5px;
     width: 1300px;
-    height: 1062px;
+    height: 1064px;
     z-index: 100;
 }
 
