@@ -52,7 +52,7 @@ $.get('http://static.popodv.com/data/geo/lines-bus.json', function (data) {
                     'featureType': 'highway',
                     'elementType': 'all',
                     'stylers': {
-                        'color': '#f3f3f3'
+                        'color': '#66de3a'
                     }
                 }, {
                     'featureType': 'highway',
@@ -137,7 +137,7 @@ $.get('http://static.popodv.com/data/geo/lines-bus.json', function (data) {
             silent: true,
             lineStyle: {
                 normal: {
-                    color: '#green',
+                    color: 'green',
                     // color: 'rgb(200, 35, 45)',
                     opacity: 0.2,
                     width: 1
