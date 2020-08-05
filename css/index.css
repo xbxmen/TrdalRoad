@@ -11,10 +11,10 @@
 }
 
 #map {
-    display: none;
+    /*display: none;*/
     position: absolute;
     opacity: 30%;
-    margin-left: 0px;
+    margin-left: 0;
     width: 1300px;
     height: 1140px;
     z-index: 2;
@@ -24,8 +24,8 @@
     position: absolute;
     opacity: 100%;
     margin-top: 88px;
-    margin-left: 146px;
-    width: 1000px;
+    margin-left: 46px;
+    width: 1200px;
     height: 1350px;
     z-index: 1;
 }
