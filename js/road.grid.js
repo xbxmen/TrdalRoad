@@ -60,7 +60,7 @@ $.get('data/grid-beijing.json', function (data) {
                     fontSize: 16,
                 }
             },
-            symbolSize: 4,
+            symbolSize: 3,
             data: data
         }
     };
