@@ -1,9 +1,20 @@
 $.get('data/grid-beijing.json', function (data) {
     let option = {
         tooltip: {
-            trigger: 'axis',
             axisPointer: {
                 type: 'cross'
+            },
+            padding: 10,
+            backgroundColor: '#222',
+            borderColor: '#777',
+            borderWidth: 1,
+            formatter: function (obj) {
+                var value = obj.value;
+                return "<div style='border-bottom: 1px solid rgba(255,255,255,.3); font-size: 18px;padding-bottom: 7px;margin-bottom: 7px'>"
+                    + '道路名称：' + value[2]
+                    + '</div>'
+                    + '横坐标：' + value[0] + '<br>'
+                    + '纵坐标：' + value[1] + '<br>';
             }
         },
         title: {
@@ -47,12 +58,9 @@ $.get('data/grid-beijing.json', function (data) {
                     position: 'right',
                     color: '#111',
                     fontSize: 16,
-                    formatter: function (param) {
-                        return param.data[2];
-                    }
                 }
             },
-            symbolSize: 3,
+            symbolSize: 4,
             data: data
         }
     };
