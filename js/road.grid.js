@@ -52,6 +52,7 @@ $.get('data/grid-beijing.json', function (data) {
                     }
                 }
             },
+            symbolSize: 3,
             data: data
         }
     };
