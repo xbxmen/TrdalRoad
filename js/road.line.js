@@ -1,5 +1,5 @@
 var myChart = echarts.init(document.getElementById('line'));
-$.get('http://static.popodv.com/data/geo/lines-bus.json', function (data) {
+$.get('data/lines-beijing.json', function (data) {
     var busLines = [].concat.apply([], data.map(function (busLine, idx) {
         var prevPt;
         var points = [];
