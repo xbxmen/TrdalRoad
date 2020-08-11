@@ -18,11 +18,16 @@ $.get('data/grid-beijing.json', function (data) {
             }
         },
         title: {
-            text: '北京市地图潮汐道路分析',
-            subtext: '时间周期：2018.01.01——2019.12.30',
+            text: '北京市地图-潮汐道路分析',
+            subtext: '时间周期：2019.01.01——2019.12.30',
             sublink: '',
             left: 'center',
-            top: 16
+            textStyle: {
+                fontSize: 22,
+            },
+            subtextStyle: {
+                fontSize: 13,
+            }
         },
         xAxis: {
             type: 'value',
